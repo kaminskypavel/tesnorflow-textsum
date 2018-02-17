@@ -13,11 +13,13 @@ This is image is comming preinstalled with the following packages
 5. TensorBoard
 
 ## Installation
-download the image directly from https://hub.docker.com/r/kaminskypavel/tensorflow-textsum/
+download the image directly from [Dockerhub](https://hub.docker.com/r/kaminskypavel/tensorflow-textsum/)
 
 ## Runing
-$ docker pull kaminskypavel/tensorflow-textsum
+```
+$ docker pull kaminskypavel/tensorflow-textsum  
 $ docker run -d -p 8888:8888 -p 6006:6006 kaminskypavel/tensorflow-textsum
+```
 
 ## Credits
 www.Pavel-Kaminsky.com
